@@ -96,10 +96,8 @@ namespace LabelTranslator
                 var response = await client.SendAsync(request);
                 var responseBody = await response.Content.ReadAsStringAsync();
 
-                //JoinableTaskFactory joinableTaskFactory = new JoinableTaskFactory(ThreadHelper.JoinableTaskContext);
-
-                //joinableTaskFactory.Run(async delegate { var response = await client.SendAsync(request); } );
-                //joinableTaskFactory.Run(async delegate { var responseBody = await response.Content.ReadAsStringAsync(); });
+                if (!response.IsSuccessStatusCode)
+                    throw new Exception(responseBody);
 
                 var result = JsonConvert.DeserializeObject<List<Dictionary<string, List<Dictionary<string, string>>>>>(responseBody);
                 var translation = result[0]["translations"][0]["text"];
