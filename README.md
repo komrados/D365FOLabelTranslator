@@ -13,6 +13,7 @@ https://azure.microsoft.com/en-us/services/cognitive-services/translator/#overvi
 	- Text translation API 		- Text translation API endpoint
 	- Translator service key	- Azure translator service key
 
+![image](https://user-images.githubusercontent.com/50162691/183013805-e34b7de8-c1b5-4057-b1c0-4d6ad73a524b.png)
 ![image](https://user-images.githubusercontent.com/50162691/183009243-f81a6d10-5ab6-4348-84bd-7b191ad56021.png)
 
 
