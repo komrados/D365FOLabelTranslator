@@ -1,5 +1,5 @@
 # D365FOLabelTranslator
-D365FOLabelTranslator is the Visual Studio extension tool which allows automatically translate labels at Dynamics 365 for Finance and Operations to the needed languages. This tool could be useful for developer teams which are creating multilingual F&O solutions. 
+D365FOLabelTranslator is the Visual Studio 2019 extension tool which allows automatically translate labels at Dynamics 365 for Finance and Operations to the needed languages. This tool could be useful for developer teams which are creating multilingual F&O solutions. 
 Of course there is a standard MS solution for automatic translation, based on LCS (https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview) but in some cases its usage is quite time consuming. This tool allows to do the same but just in a few mouse clicks.
 
 # Technical 
