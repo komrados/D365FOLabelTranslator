@@ -19,7 +19,7 @@ https://azure.microsoft.com/en-us/services/cognitive-services/translator/#overvi
 
 # Translation process
 After new labels in the basic language (this is usually an En-US language, as it is used as a basic language in the Azure translator service) was created, new option "Translate labels" 
-on the label resource file can be used.
+on the label resource file (*.txt) can be used.
 
 ![image](https://user-images.githubusercontent.com/50162691/183012458-eea780c6-ea6c-4d26-b2d7-9bb80ec7e446.png)
 
