@@ -5,6 +5,8 @@ Of course there is a standard MS solution for automatic translation, based on LC
 
 This tool allows to do the same but just in a few mouse clicks. Also this tool allows to use other than Azure translation service providers, like Google and Yandex. This could be useful for translation quality improvement.
 
+**To use this tool in Visual Studio 2017 .NET Framework 4.7.1 or higher should be installed**
+
 # Technical 
 D365FOLabelTranslator is build upon cloud translation service provider (TSP), so it requires active cloud subscription with created translator service to work on.
 
