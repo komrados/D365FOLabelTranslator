@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="LabelTranslator.b6eb63b6-0e47-4e6e-991e-009451ff370a" Version="1.0.0.7" Language="en-US" Publisher="Pavel Khrushchev" />
+        <Identity Id="LabelTranslator.b6eb63b6-0e47-4e6e-991e-009451ff370a" Version="2.0.0.1" Language="en-US" Publisher="Pavel Khrushchev" />
         <DisplayName>Finance and Opearations Label Translator</DisplayName>
         <Description xml:space="preserve">Tool translates labels for Finance and Opearations (Dynamics 365)</Description>
+        <MoreInfo>https://github.com/komrados/D365FOLabelTranslator</MoreInfo>
+        <Icon>Icon.png</Icon>
+        <PreviewImage>Preview.jpg</PreviewImage>
+        <Tags>d365fo</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />

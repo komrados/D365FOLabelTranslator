@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using Microsoft.VisualStudio.Shell;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -29,5 +30,20 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.1")]
+[assembly: AssemblyFileVersion("2.0.0.1")]
+
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Apis.Auth", NewVersion = "1.60.0.0", OldVersionLowerBound = "1.46.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Apis.Core", NewVersion = "1.60.0.0", OldVersionLowerBound = "1.46.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Protobuf", NewVersion = "3.23.0.0", OldVersionLowerBound = "3.21.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Api.CommonProtos", NewVersion = "2.10.0.0", OldVersionLowerBound = "2.6.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Api.Gax.Grpc", NewVersion = "4.4.0.0", OldVersionLowerBound = "4.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Google.Api.Gax", NewVersion = "4.4.0.0", OldVersionLowerBound = "4.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Grpc.Core.Api", NewVersion = "2.0.0.0", OldVersionLowerBound = "1.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Grpc.Auth", NewVersion = "2.0.0.0", OldVersionLowerBound = "1.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Grpc.Net.Client", NewVersion = "2.0.0.0", OldVersionLowerBound = "1.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Grpc.Core", NewVersion = "2.0.0.0", OldVersionLowerBound = "1.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Microsoft.Extensions.Logging.Abstractions", NewVersion = "3.0.3.0", OldVersionLowerBound = "3.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "Newtonsoft.Json", NewVersion = "13.0.0.0", OldVersionLowerBound = "12.0.0.0")]
+[assembly: ProvideBindingRedirection(AssemblyName = "System.Memory", NewVersion = "4.0.1.1", OldVersionLowerBound = "4.0.0.0")]
+//[assembly: ProvideBindingRedirection(AssemblyName = "System.Runtime.CompilerServices.Unsafe", NewVersion = "6.0.0.0", OldVersionLowerBound = "1.0.0.0", OldVersionUpperBound = "4.0.4.2")]
